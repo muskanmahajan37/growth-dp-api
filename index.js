@@ -6,30 +6,38 @@ var md = require( "markdown" ).markdown;
 var raw = fs.readFileSync(__dirname + '/patterns.md', 'utf8');
 
 function getData(str) {
-  var questionsArray = str.split('==========================\n');
+  var questionsArray = str.split('------------\n');
   var questionsAPI = [];
+  var headings = [];
+  var heading = '';
+
+  var originMdTree = md.parse(str);
+  _.each(originMdTree, function(section) {
+    if (section[0] && section[0] === 'header') {
+      heading = section[2];
+      fileName = slugify(heading).toLowerCase();
+      headings.push({
+        name: heading,
+        fileName: fileName,
+        path: 'patterns/' + fileName + '.md'
+      })
+    }
+  });
 
   for(var index in questionsArray) {
-  	var question = questionsArray[index];
-	var mdTree = md.parse(question);
-	var heading = '';
-	var fileName = '';
+    if (index === 0) {
+      return;
+    }
 
-	_.each(mdTree, function(section){
-		if(section[0] && section[0] === 'header') {
-		  heading = section[2];
-		  fileName = slugify(heading).toLowerCase();
-		}
-	})
+    var question = questionsArray[index];
 
-	questionsAPI.push({
-		name: heading,
-		path: 'patterns/' + fileName + '.md'
-	})
+    if(!!headings[index - 1]) {
+      var fileName = headings[index - 1].fileName;
 
-	if(!!fileName){
-		fs.writeFileSync(__dirname + '/patterns/' + fileName + '.md', question);
-	}
+      if (!!fileName) {
+        fs.writeFileSync(__dirname + '/patterns/' + fileName + '.md', question);
+      }
+    }
   }
 
   fs.writeFileSync(__dirname + '/api.json', JSON.stringify(questionsAPI));
