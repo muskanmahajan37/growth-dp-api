@@ -3,7 +3,7 @@ var _ = require('lodash');
 var slugify = require('slugify')
 
 var md = require( "markdown" ).markdown;
-var raw = fs.readFileSync(__dirname + '/design-patterns-for-humans/README.md', 'utf8');
+var raw = fs.readFileSync(__dirname + '/patterns.md', 'utf8');
 
 function getData(str) {
   var questionsArray = str.split('==========================\n');
