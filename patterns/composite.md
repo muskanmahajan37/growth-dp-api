@@ -128,4 +128,4 @@ $organization->addEmployee($jane);
 echo "Net salaries: " . $organization->getNetSalaries(); // Net Salaries: 22000
 ```
 
-☕ Decorator
+

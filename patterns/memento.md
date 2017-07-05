@@ -86,4 +86,4 @@ $editor->restore($saved);
 $editor->getContent(); // This is the first sentence. This is second.
 ```
 
-😎 Observer
+

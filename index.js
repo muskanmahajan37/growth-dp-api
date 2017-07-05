@@ -34,7 +34,7 @@ function getData(str) {
       var fileName = headings[index - 1].fileName;
 
       if(headings[index]) {
-        question = question.replace(headings[index - 1].name, '');
+        question = question.replace(headings[index].name, '');
       }
 
       if (!!fileName) {

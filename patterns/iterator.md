@@ -103,4 +103,4 @@ foreach($stationList as $station) {
 $stationList->removeStation(new RadioStation(89)); // Will remove station 89
 ```
 
-👽 Mediator
+

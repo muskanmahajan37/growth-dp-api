@@ -136,4 +136,4 @@ $dolphin->accept($speak);  // Tuut tutt tuutt!
 $dolphin->accept($jump);   // Walked on water a little and disappeared
 ```
 
-💡 Strategy
+

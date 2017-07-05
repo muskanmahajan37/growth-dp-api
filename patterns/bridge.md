@@ -92,4 +92,4 @@ echo $about->getContent(); // "About page in Dark Black";
 echo $careers->getContent(); // "Careers page in Dark Black";
 ```
 
-🌿 Composite
+

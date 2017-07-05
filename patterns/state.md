@@ -91,4 +91,4 @@ $editor->type('Fifth line');
 // fifth line
 ```
 
-📒 Template Method
+

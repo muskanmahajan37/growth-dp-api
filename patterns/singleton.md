@@ -51,4 +51,4 @@ $president2 = President::getInstance();
 var_dump($president1 === $president2); // true
 ```
 
-🔌 Adapter
+

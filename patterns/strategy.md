@@ -70,4 +70,4 @@ $sorter = new Sorter(new QuickSortStrategy());
 $sorter->sort($dataset); // Output : Sorting using quick sort
 ```
 
-💢 State
+

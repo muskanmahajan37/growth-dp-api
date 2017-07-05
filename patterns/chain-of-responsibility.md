@@ -100,4 +100,4 @@ $bank->pay(259);
 // Paid 259 using Bitcoin!
 ```
 
-👮 Command
+

@@ -83,4 +83,4 @@ $hunter = new Hunter();
 $hunter->hunt($wildDogAdapter);
 ```
 
-🚡 Bridge
+
