@@ -7,7 +7,6 @@ var raw = fs.readFileSync(__dirname + '/patterns.md', 'utf8');
 
 function getData(str) {
   var questionsArray = str.split('------------\n');
-  var questionsAPI = [];
   var headings = [];
   var heading = '';
 
@@ -34,13 +33,17 @@ function getData(str) {
     if(!!headings[index - 1]) {
       var fileName = headings[index - 1].fileName;
 
+      if(headings[index]) {
+        question = question.replace(headings[index - 1].name, '');
+      }
+
       if (!!fileName) {
         fs.writeFileSync(__dirname + '/patterns/' + fileName + '.md', question);
       }
     }
   }
 
-  fs.writeFileSync(__dirname + '/api.json', JSON.stringify(questionsAPI));
+  fs.writeFileSync(__dirname + '/api.json', JSON.stringify(headings));
 }
 
 var result = getData(raw);
