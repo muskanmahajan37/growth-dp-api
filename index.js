@@ -44,7 +44,7 @@ function getData(str) {
           name: headings[index - 1].name,
           fileName: headings[index - 1].fileName,
           path: headings[index - 1].path,
-          question: question
+          pattern: question
         })
       }
     }
