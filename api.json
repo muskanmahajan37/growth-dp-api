@@ -1,1 +1,117 @@
-[{"name":"🏠 Simple Factory","fileName":"simple-factory","path":"patterns/simple-factory.md"},{"name":"🏭 Factory Method","fileName":"factory-method","path":"patterns/factory-method.md"},{"name":"🔨 Abstract Factory","fileName":"abstract-factory","path":"patterns/abstract-factory.md"},{"name":"👷 Builder","fileName":"builder","path":"patterns/builder.md"},{"name":"🐑 Prototype","fileName":"prototype","path":"patterns/prototype.md"},{"name":"💍 Singleton","fileName":"singleton","path":"patterns/singleton.md"},{"name":"🔌 Adapter","fileName":"adapter","path":"patterns/adapter.md"},{"name":"🚡 Bridge","fileName":"bridge","path":"patterns/bridge.md"},{"name":"🌿 Composite","fileName":"composite","path":"patterns/composite.md"},{"name":"☕ Decorator","fileName":"decorator","path":"patterns/decorator.md"},{"name":"📦 Facade","fileName":"facade","path":"patterns/facade.md"},{"name":"🍃 Flyweight","fileName":"flyweight","path":"patterns/flyweight.md"},{"name":"🎱 Proxy","fileName":"proxy","path":"patterns/proxy.md"},{"name":"🔗 Chain of Responsibility","fileName":"chain-of-responsibility","path":"patterns/chain-of-responsibility.md"},{"name":"👮 Command","fileName":"command","path":"patterns/command.md"},{"name":"➿ Iterator","fileName":"iterator","path":"patterns/iterator.md"},{"name":"👽 Mediator","fileName":"mediator","path":"patterns/mediator.md"},{"name":"💾 Memento","fileName":"memento","path":"patterns/memento.md"},{"name":"😎 Observer","fileName":"observer","path":"patterns/observer.md"},{"name":"🏃 Visitor","fileName":"visitor","path":"patterns/visitor.md"},{"name":"💡 Strategy","fileName":"strategy","path":"patterns/strategy.md"},{"name":"💢 State","fileName":"state","path":"patterns/state.md"},{"name":"📒 Template Method","fileName":"template-method","path":"patterns/template-method.md"}]
+[
+  {
+    "name": "🏠 Simple Factory",
+    "fileName": "simple-factory",
+    "path": "patterns/simple-factory.md"
+  },
+  {
+    "name": "🏭 Factory Method",
+    "fileName": "factory-method",
+    "path": "patterns/factory-method.md"
+  },
+  {
+    "name": "🔨 Abstract Factory",
+    "fileName": "abstract-factory",
+    "path": "patterns/abstract-factory.md"
+  },
+  {
+    "name": "👷 Builder",
+    "fileName": "builder",
+    "path": "patterns/builder.md"
+  },
+  {
+    "name": "🐑 Prototype",
+    "fileName": "prototype",
+    "path": "patterns/prototype.md"
+  },
+  {
+    "name": "💍 Singleton",
+    "fileName": "singleton",
+    "path": "patterns/singleton.md"
+  },
+  {
+    "name": "🔌 Adapter",
+    "fileName": "adapter",
+    "path": "patterns/adapter.md"
+  },
+  {
+    "name": "🚡 Bridge",
+    "fileName": "bridge",
+    "path": "patterns/bridge.md"
+  },
+  {
+    "name": "🌿 Composite",
+    "fileName": "composite",
+    "path": "patterns/composite.md"
+  },
+  {
+    "name": "☕ Decorator",
+    "fileName": "decorator",
+    "path": "patterns/decorator.md"
+  },
+  {
+    "name": "📦 Facade",
+    "fileName": "facade",
+    "path": "patterns/facade.md"
+  },
+  {
+    "name": "🍃 Flyweight",
+    "fileName": "flyweight",
+    "path": "patterns/flyweight.md"
+  },
+  {
+    "name": "🎱 Proxy",
+    "fileName": "proxy",
+    "path": "patterns/proxy.md"
+  },
+  {
+    "name": "🔗 Chain of Responsibility",
+    "fileName": "chain-of-responsibility",
+    "path": "patterns/chain-of-responsibility.md"
+  },
+  {
+    "name": "👮 Command",
+    "fileName": "command",
+    "path": "patterns/command.md"
+  },
+  {
+    "name": "➿ Iterator",
+    "fileName": "iterator",
+    "path": "patterns/iterator.md"
+  },
+  {
+    "name": "👽 Mediator",
+    "fileName": "mediator",
+    "path": "patterns/mediator.md"
+  },
+  {
+    "name": "💾 Memento",
+    "fileName": "memento",
+    "path": "patterns/memento.md"
+  },
+  {
+    "name": "😎 Observer",
+    "fileName": "observer",
+    "path": "patterns/observer.md"
+  },
+  {
+    "name": "🏃 Visitor",
+    "fileName": "visitor",
+    "path": "patterns/visitor.md"
+  },
+  {
+    "name": "💡 Strategy",
+    "fileName": "strategy",
+    "path": "patterns/strategy.md"
+  },
+  {
+    "name": "💢 State",
+    "fileName": "state",
+    "path": "patterns/state.md"
+  },
+  {
+    "name": "📒 Template Method",
+    "fileName": "template-method",
+    "path": "patterns/template-method.md"
+  }
+]
